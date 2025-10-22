@@ -463,8 +463,10 @@ body {
 
 .team-member img {
     width: 100%;
-    height: 330px;
+    height: 300px;
     object-fit: cover;
+    object-position: top center;
+    transition: transform 0.3s ease;
 }
 
 .team-member h3 {
